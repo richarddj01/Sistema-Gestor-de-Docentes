@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>SistemaGestorDeDocentes</RootNamespace>
     <AssemblyName>SistemaGestorDeDocentes</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,14 +47,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cargo.Designer.cs">
+      <DependentUpon>Cargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CentroEducativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CentroEducativo.Designer.cs">
+      <DependentUpon>CentroEducativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Colegio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Colegio.Designer.cs">
+      <DependentUpon>Colegio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docentes.Designer.cs">
+      <DependentUpon>Docentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocentesEnCE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocentesEnCE.Designer.cs">
+      <DependentUpon>DocentesEnCE.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmZonaGeografica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZonaGeografica.Designer.cs">
+      <DependentUpon>FrmZonaGeografica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cargo.resx">
+      <DependentUpon>Cargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CentroEducativo.resx">
+      <DependentUpon>CentroEducativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Colegio.resx">
+      <DependentUpon>Colegio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docentes.resx">
+      <DependentUpon>Docentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocentesEnCE.resx">
+      <DependentUpon>DocentesEnCE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZonaGeografica.resx">
+      <DependentUpon>FrmZonaGeografica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +120,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -72,9 +131,55 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Logo" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-menu_89847.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4115235-exit-logout-sign-out_114030.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_icon_143740.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_118918.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows_minimize_icon_211564.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize_panels_maximize_expand_icon_219245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_exit_icon_181084.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_video_multimedia_fullscreen_expand_maximize_android_ui_icon_219933.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4115230-cancel-close-cross-delete_114048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_expand_reduce_screen_resize_icon_190613.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_close_delete_exit_logout_remove_x_icon_123217.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizearrows_85770.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maximizar.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuHide.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuHide1.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
