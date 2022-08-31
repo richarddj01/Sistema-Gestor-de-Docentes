@@ -35,7 +35,6 @@
             this.Maximizar = new System.Windows.Forms.PictureBox();
             this.Salir = new System.Windows.Forms.PictureBox();
             this.BtnSlide = new System.Windows.Forms.PictureBox();
-            this.PanelCentral = new System.Windows.Forms.Panel();
             this.PanelVertical = new System.Windows.Forms.Panel();
             this.BtnReportes = new System.Windows.Forms.Button();
             this.BtnDocentesEnCE = new System.Windows.Forms.Button();
@@ -52,6 +51,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Logo = new System.Windows.Forms.PictureBox();
+            this.PanelCentral = new System.Windows.Forms.Panel();
             this.Panel_Barra_Titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Restaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Minimizar)).BeginInit();
@@ -140,17 +140,6 @@
             this.BtnSlide.TabIndex = 0;
             this.BtnSlide.TabStop = false;
             this.BtnSlide.Click += new System.EventHandler(this.BtnSlide_Click);
-            // 
-            // PanelCentral
-            // 
-            this.PanelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(158)))), ((int)(((byte)(158)))));
-            this.PanelCentral.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PanelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelCentral.Location = new System.Drawing.Point(191, 44);
-            this.PanelCentral.Name = "PanelCentral";
-            this.PanelCentral.Size = new System.Drawing.Size(694, 488);
-            this.PanelCentral.TabIndex = 2;
-            this.PanelCentral.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelCentral_MouseDown);
             // 
             // PanelVertical
             // 
@@ -370,6 +359,17 @@
             this.Logo.TabIndex = 0;
             this.Logo.TabStop = false;
             // 
+            // PanelCentral
+            // 
+            this.PanelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(158)))), ((int)(((byte)(158)))));
+            this.PanelCentral.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PanelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelCentral.Location = new System.Drawing.Point(191, 44);
+            this.PanelCentral.Name = "PanelCentral";
+            this.PanelCentral.Size = new System.Drawing.Size(694, 488);
+            this.PanelCentral.TabIndex = 2;
+            this.PanelCentral.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelCentral_MouseDown);
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -396,7 +396,6 @@
         #endregion
         private System.Windows.Forms.Panel Panel_Barra_Titulo;
         private System.Windows.Forms.PictureBox BtnSlide;
-        private System.Windows.Forms.Panel PanelCentral;
         private System.Windows.Forms.PictureBox Salir;
         private System.Windows.Forms.PictureBox Minimizar;
         private System.Windows.Forms.PictureBox Maximizar;
@@ -417,6 +416,7 @@
         private System.Windows.Forms.Button BtnZonaGeografica;
         private System.Windows.Forms.Button BtnColegio;
         private System.Windows.Forms.Button BtnCentroEdu;
+        private System.Windows.Forms.Panel PanelCentral;
     }
 }
 
