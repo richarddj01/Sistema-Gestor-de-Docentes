@@ -14,3 +14,20 @@ C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Ge
 C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.FrmCentroEducativo.resources
 C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.FrmDocentesEnCE.resources
 C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.FrmZonaGeografica.resources
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\SistemaGestorDeDocentes.exe.config
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\SistemaGestorDeDocentes.exe
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\SistemaGestorDeDocentes.pdb
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.csproj.AssemblyReference.cache
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.FrmCargo.resources
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.FrmCentroEducativo.resources
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.FrmColegio.resources
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.FrmDocentes.resources
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.FrmDocentesEnCE.resources
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.Inicio.resources
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.FrmZonaGeografica.resources
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.Properties.Resources.resources
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.csproj.GenerateResource.cache
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.exe
+C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.pdb
