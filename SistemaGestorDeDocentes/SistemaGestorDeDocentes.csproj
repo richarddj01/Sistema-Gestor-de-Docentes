@@ -34,6 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.30.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Installer for Windows\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,69 +51,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cargo.cs">
+    <Compile Include="Clases\conexion.cs" />
+    <Compile Include="Formularios\Cargo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cargo.Designer.cs">
+    <Compile Include="Formularios\Cargo.Designer.cs">
       <DependentUpon>Cargo.cs</DependentUpon>
     </Compile>
-    <Compile Include="CentroEducativo.cs">
+    <Compile Include="Formularios\CentroEducativo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CentroEducativo.Designer.cs">
+    <Compile Include="Formularios\CentroEducativo.Designer.cs">
       <DependentUpon>CentroEducativo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Colegio.cs">
+    <Compile Include="Formularios\Colegio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Colegio.Designer.cs">
+    <Compile Include="Formularios\Colegio.Designer.cs">
       <DependentUpon>Colegio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Docentes.cs">
+    <Compile Include="Formularios\Docentes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Docentes.Designer.cs">
+    <Compile Include="Formularios\Docentes.Designer.cs">
       <DependentUpon>Docentes.cs</DependentUpon>
     </Compile>
-    <Compile Include="DocentesEnCE.cs">
+    <Compile Include="Formularios\DocentesEnCE.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DocentesEnCE.Designer.cs">
+    <Compile Include="Formularios\DocentesEnCE.Designer.cs">
       <DependentUpon>DocentesEnCE.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Formularios\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Formularios\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmZonaGeografica.cs">
+    <Compile Include="Formularios\FrmZonaGeografica.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmZonaGeografica.Designer.cs">
+    <Compile Include="Formularios\FrmZonaGeografica.Designer.cs">
       <DependentUpon>FrmZonaGeografica.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Cargo.resx">
+    <EmbeddedResource Include="Formularios\Cargo.resx">
       <DependentUpon>Cargo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CentroEducativo.resx">
+    <EmbeddedResource Include="Formularios\CentroEducativo.resx">
       <DependentUpon>CentroEducativo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Colegio.resx">
+    <EmbeddedResource Include="Formularios\Colegio.resx">
       <DependentUpon>Colegio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Docentes.resx">
+    <EmbeddedResource Include="Formularios\Docentes.resx">
       <DependentUpon>Docentes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DocentesEnCE.resx">
+    <EmbeddedResource Include="Formularios\DocentesEnCE.resx">
       <DependentUpon>DocentesEnCE.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Formularios\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmZonaGeografica.resx">
+    <EmbeddedResource Include="Formularios\FrmZonaGeografica.resx">
       <DependentUpon>FrmZonaGeografica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -180,6 +185,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\MenuHide1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
