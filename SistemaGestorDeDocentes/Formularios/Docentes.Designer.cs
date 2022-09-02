@@ -48,44 +48,44 @@ namespace SistemaGestorDeDocentes
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.cmbDepto = new System.Windows.Forms.ComboBox();
-            this.cmbMunicipio = new System.Windows.Forms.ComboBox();
-            this.cmbAldea = new System.Windows.Forms.ComboBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtSegundoNombre = new System.Windows.Forms.TextBox();
-            this.txtPrimerApellido = new System.Windows.Forms.TextBox();
-            this.txtSegundoApellido = new System.Windows.Forms.TextBox();
-            this.txtCorreo = new System.Windows.Forms.TextBox();
-            this.txtTeléfono = new System.Windows.Forms.TextBox();
-            this.txtDNI = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.cmbAldea = new System.Windows.Forms.ComboBox();
+            this.cmbMunicipio = new System.Windows.Forms.ComboBox();
+            this.cmbDepto = new System.Windows.Forms.ComboBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.txtRTN = new System.Windows.Forms.TextBox();
-            this.txtEscalafon = new System.Windows.Forms.TextBox();
-            this.txtColegiacion = new System.Windows.Forms.TextBox();
-            this.txtImprema = new System.Windows.Forms.TextBox();
-            this.txtTitulo = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
+            this.txtTeléfono = new System.Windows.Forms.TextBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.txtSegundoApellido = new System.Windows.Forms.TextBox();
+            this.txtPrimerApellido = new System.Windows.Forms.TextBox();
+            this.txtSegundoNombre = new System.Windows.Forms.TextBox();
+            this.txtDNI = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnSeleccionarCE = new System.Windows.Forms.Button();
             this.txtNoAcuerdo = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label21 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
             this.cmbColegio = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtTitulo = new System.Windows.Forms.TextBox();
+            this.txtImprema = new System.Windows.Forms.TextBox();
+            this.txtColegiacion = new System.Windows.Forms.TextBox();
+            this.txtEscalafon = new System.Windows.Forms.TextBox();
+            this.txtRTN = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Datos = new System.Windows.Forms.TabPage();
             this.Lista = new System.Windows.Forms.TabPage();
-            this.btnSeleccionarCE = new System.Windows.Forms.Button();
-            this.label24 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -278,25 +278,50 @@ namespace SistemaGestorDeDocentes
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Direción:";
             // 
-            // label13
+            // textBox1
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(20, 31);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(77, 13);
-            this.label13.TabIndex = 11;
-            this.label13.Text = "Departamento:";
-            this.label13.Click += new System.EventHandler(this.label12_Click);
+            this.textBox1.Location = new System.Drawing.Point(104, 115);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(120, 85);
+            this.textBox1.TabIndex = 13;
             // 
-            // label14
+            // cmbAldea
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(42, 59);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(55, 13);
-            this.label14.TabIndex = 11;
-            this.label14.Text = "Municipio:";
-            this.label14.Click += new System.EventHandler(this.label12_Click);
+            this.cmbAldea.FormattingEnabled = true;
+            this.cmbAldea.Location = new System.Drawing.Point(103, 84);
+            this.cmbAldea.Name = "cmbAldea";
+            this.cmbAldea.Size = new System.Drawing.Size(121, 21);
+            this.cmbAldea.TabIndex = 12;
+            this.cmbAldea.SelectedIndexChanged += new System.EventHandler(this.cmbAldea_SelectedIndexChanged);
+            // 
+            // cmbMunicipio
+            // 
+            this.cmbMunicipio.FormattingEnabled = true;
+            this.cmbMunicipio.Location = new System.Drawing.Point(103, 56);
+            this.cmbMunicipio.Name = "cmbMunicipio";
+            this.cmbMunicipio.Size = new System.Drawing.Size(121, 21);
+            this.cmbMunicipio.TabIndex = 12;
+            this.cmbMunicipio.SelectedIndexChanged += new System.EventHandler(this.cmbMunicipio_SelectedIndexChanged);
+            // 
+            // cmbDepto
+            // 
+            this.cmbDepto.FormattingEnabled = true;
+            this.cmbDepto.Location = new System.Drawing.Point(103, 29);
+            this.cmbDepto.Name = "cmbDepto";
+            this.cmbDepto.Size = new System.Drawing.Size(121, 21);
+            this.cmbDepto.TabIndex = 12;
+            this.cmbDepto.SelectedIndexChanged += new System.EventHandler(this.cmbDepto_SelectedIndexChanged);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(35, 115);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(62, 13);
+            this.label16.TabIndex = 11;
+            this.label16.Text = "Referencia:";
+            this.label16.Click += new System.EventHandler(this.label12_Click);
             // 
             // label15
             // 
@@ -308,29 +333,25 @@ namespace SistemaGestorDeDocentes
             this.label15.Text = "Aldea:";
             this.label15.Click += new System.EventHandler(this.label12_Click);
             // 
-            // cmbDepto
+            // label14
             // 
-            this.cmbDepto.FormattingEnabled = true;
-            this.cmbDepto.Location = new System.Drawing.Point(103, 29);
-            this.cmbDepto.Name = "cmbDepto";
-            this.cmbDepto.Size = new System.Drawing.Size(121, 21);
-            this.cmbDepto.TabIndex = 12;
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(42, 59);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(55, 13);
+            this.label14.TabIndex = 11;
+            this.label14.Text = "Municipio:";
+            this.label14.Click += new System.EventHandler(this.label12_Click);
             // 
-            // cmbMunicipio
+            // label13
             // 
-            this.cmbMunicipio.FormattingEnabled = true;
-            this.cmbMunicipio.Location = new System.Drawing.Point(103, 56);
-            this.cmbMunicipio.Name = "cmbMunicipio";
-            this.cmbMunicipio.Size = new System.Drawing.Size(121, 21);
-            this.cmbMunicipio.TabIndex = 12;
-            // 
-            // cmbAldea
-            // 
-            this.cmbAldea.FormattingEnabled = true;
-            this.cmbAldea.Location = new System.Drawing.Point(103, 84);
-            this.cmbAldea.Name = "cmbAldea";
-            this.cmbAldea.Size = new System.Drawing.Size(121, 21);
-            this.cmbAldea.TabIndex = 12;
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(20, 31);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(77, 13);
+            this.label13.TabIndex = 11;
+            this.label13.Text = "Departamento:";
+            this.label13.Click += new System.EventHandler(this.label12_Click);
             // 
             // groupBox2
             // 
@@ -357,33 +378,12 @@ namespace SistemaGestorDeDocentes
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos Pesonales";
             // 
-            // txtSegundoNombre
+            // dateTimePicker1
             // 
-            this.txtSegundoNombre.Location = new System.Drawing.Point(124, 91);
-            this.txtSegundoNombre.Name = "txtSegundoNombre";
-            this.txtSegundoNombre.Size = new System.Drawing.Size(100, 20);
-            this.txtSegundoNombre.TabIndex = 9;
-            // 
-            // txtPrimerApellido
-            // 
-            this.txtPrimerApellido.Location = new System.Drawing.Point(124, 123);
-            this.txtPrimerApellido.Name = "txtPrimerApellido";
-            this.txtPrimerApellido.Size = new System.Drawing.Size(100, 20);
-            this.txtPrimerApellido.TabIndex = 9;
-            // 
-            // txtSegundoApellido
-            // 
-            this.txtSegundoApellido.Location = new System.Drawing.Point(124, 156);
-            this.txtSegundoApellido.Name = "txtSegundoApellido";
-            this.txtSegundoApellido.Size = new System.Drawing.Size(100, 20);
-            this.txtSegundoApellido.TabIndex = 9;
-            // 
-            // txtCorreo
-            // 
-            this.txtCorreo.Location = new System.Drawing.Point(124, 215);
-            this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(100, 20);
-            this.txtCorreo.TabIndex = 9;
+            this.dateTimePicker1.Location = new System.Drawing.Point(124, 185);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(100, 20);
+            this.dateTimePicker1.TabIndex = 12;
             // 
             // txtTeléfono
             // 
@@ -392,6 +392,34 @@ namespace SistemaGestorDeDocentes
             this.txtTeléfono.Size = new System.Drawing.Size(100, 20);
             this.txtTeléfono.TabIndex = 9;
             // 
+            // txtCorreo
+            // 
+            this.txtCorreo.Location = new System.Drawing.Point(124, 215);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(100, 20);
+            this.txtCorreo.TabIndex = 9;
+            // 
+            // txtSegundoApellido
+            // 
+            this.txtSegundoApellido.Location = new System.Drawing.Point(124, 156);
+            this.txtSegundoApellido.Name = "txtSegundoApellido";
+            this.txtSegundoApellido.Size = new System.Drawing.Size(100, 20);
+            this.txtSegundoApellido.TabIndex = 9;
+            // 
+            // txtPrimerApellido
+            // 
+            this.txtPrimerApellido.Location = new System.Drawing.Point(124, 123);
+            this.txtPrimerApellido.Name = "txtPrimerApellido";
+            this.txtPrimerApellido.Size = new System.Drawing.Size(100, 20);
+            this.txtPrimerApellido.TabIndex = 9;
+            // 
+            // txtSegundoNombre
+            // 
+            this.txtSegundoNombre.Location = new System.Drawing.Point(124, 91);
+            this.txtSegundoNombre.Name = "txtSegundoNombre";
+            this.txtSegundoNombre.Size = new System.Drawing.Size(100, 20);
+            this.txtSegundoNombre.TabIndex = 9;
+            // 
             // txtDNI
             // 
             this.txtDNI.Location = new System.Drawing.Point(124, 30);
@@ -399,23 +427,15 @@ namespace SistemaGestorDeDocentes
             this.txtDNI.Size = new System.Drawing.Size(100, 20);
             this.txtDNI.TabIndex = 9;
             // 
-            // label16
+            // label18
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(35, 115);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(62, 13);
-            this.label16.TabIndex = 11;
-            this.label16.Text = "Referencia:";
-            this.label16.Click += new System.EventHandler(this.label12_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(104, 115);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 85);
-            this.textBox1.TabIndex = 13;
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(66, 247);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(52, 13);
+            this.label18.TabIndex = 11;
+            this.label18.Text = "Teléfono:";
+            this.label18.Click += new System.EventHandler(this.label12_Click);
             // 
             // groupBox3
             // 
@@ -447,78 +467,14 @@ namespace SistemaGestorDeDocentes
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Datos Laborales:";
             // 
-            // label17
+            // btnSeleccionarCE
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(67, 156);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(38, 13);
-            this.label17.TabIndex = 11;
-            this.label17.Text = "Título:";
-            this.label17.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(66, 247);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(52, 13);
-            this.label18.TabIndex = 11;
-            this.label18.Text = "Teléfono:";
-            this.label18.Click += new System.EventHandler(this.label12_Click);
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(124, 185);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(100, 20);
-            this.dateTimePicker1.TabIndex = 12;
-            // 
-            // txtRTN
-            // 
-            this.txtRTN.Location = new System.Drawing.Point(112, 18);
-            this.txtRTN.Name = "txtRTN";
-            this.txtRTN.Size = new System.Drawing.Size(100, 20);
-            this.txtRTN.TabIndex = 9;
-            // 
-            // txtEscalafon
-            // 
-            this.txtEscalafon.Location = new System.Drawing.Point(112, 46);
-            this.txtEscalafon.Name = "txtEscalafon";
-            this.txtEscalafon.Size = new System.Drawing.Size(100, 20);
-            this.txtEscalafon.TabIndex = 9;
-            // 
-            // txtColegiacion
-            // 
-            this.txtColegiacion.Location = new System.Drawing.Point(112, 101);
-            this.txtColegiacion.Name = "txtColegiacion";
-            this.txtColegiacion.Size = new System.Drawing.Size(100, 20);
-            this.txtColegiacion.TabIndex = 9;
-            // 
-            // txtImprema
-            // 
-            this.txtImprema.Location = new System.Drawing.Point(112, 128);
-            this.txtImprema.Name = "txtImprema";
-            this.txtImprema.Size = new System.Drawing.Size(100, 20);
-            this.txtImprema.TabIndex = 9;
-            // 
-            // txtTitulo
-            // 
-            this.txtTitulo.Location = new System.Drawing.Point(112, 153);
-            this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(100, 20);
-            this.txtTitulo.TabIndex = 9;
-            this.txtTitulo.TextChanged += new System.EventHandler(this.txtTitulo_TextChanged);
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(36, 184);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(70, 13);
-            this.label19.TabIndex = 11;
-            this.label19.Text = "No. Acuerdo:";
-            this.label19.Click += new System.EventHandler(this.label10_Click);
+            this.btnSeleccionarCE.Location = new System.Drawing.Point(111, 288);
+            this.btnSeleccionarCE.Name = "btnSeleccionarCE";
+            this.btnSeleccionarCE.Size = new System.Drawing.Size(99, 23);
+            this.btnSeleccionarCE.TabIndex = 7;
+            this.btnSeleccionarCE.Text = "Seleccionar";
+            this.btnSeleccionarCE.UseVisualStyleBackColor = true;
             // 
             // txtNoAcuerdo
             // 
@@ -528,15 +484,21 @@ namespace SistemaGestorDeDocentes
             this.txtNoAcuerdo.TabIndex = 9;
             this.txtNoAcuerdo.TextChanged += new System.EventHandler(this.txtTitulo_TextChanged);
             // 
-            // label20
+            // comboBox2
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(32, 210);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(74, 13);
-            this.label20.TabIndex = 11;
-            this.label20.Text = "Tipo Acuerdo:";
-            this.label20.Click += new System.EventHandler(this.label10_Click);
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(111, 237);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(100, 21);
+            this.comboBox2.TabIndex = 12;
+            // 
+            // cmbColegio
+            // 
+            this.cmbColegio.FormattingEnabled = true;
+            this.cmbColegio.Location = new System.Drawing.Point(111, 72);
+            this.cmbColegio.Name = "cmbColegio";
+            this.cmbColegio.Size = new System.Drawing.Size(100, 21);
+            this.cmbColegio.TabIndex = 12;
             // 
             // comboBox1
             // 
@@ -546,33 +508,41 @@ namespace SistemaGestorDeDocentes
             this.comboBox1.Size = new System.Drawing.Size(100, 21);
             this.comboBox1.TabIndex = 12;
             // 
-            // label21
+            // txtTitulo
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(67, 240);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(38, 13);
-            this.label21.TabIndex = 11;
-            this.label21.Text = "Cargo:";
-            this.label21.Click += new System.EventHandler(this.label10_Click);
+            this.txtTitulo.Location = new System.Drawing.Point(112, 153);
+            this.txtTitulo.Name = "txtTitulo";
+            this.txtTitulo.Size = new System.Drawing.Size(100, 20);
+            this.txtTitulo.TabIndex = 9;
+            this.txtTitulo.TextChanged += new System.EventHandler(this.txtTitulo_TextChanged);
             // 
-            // comboBox2
+            // txtImprema
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(111, 237);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(100, 21);
-            this.comboBox2.TabIndex = 12;
+            this.txtImprema.Location = new System.Drawing.Point(112, 128);
+            this.txtImprema.Name = "txtImprema";
+            this.txtImprema.Size = new System.Drawing.Size(100, 20);
+            this.txtImprema.TabIndex = 9;
             // 
-            // label22
+            // txtColegiacion
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(14, 269);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(92, 13);
-            this.label22.TabIndex = 11;
-            this.label22.Text = "Centro Educativo:";
-            this.label22.Click += new System.EventHandler(this.label10_Click);
+            this.txtColegiacion.Location = new System.Drawing.Point(112, 101);
+            this.txtColegiacion.Name = "txtColegiacion";
+            this.txtColegiacion.Size = new System.Drawing.Size(100, 20);
+            this.txtColegiacion.TabIndex = 9;
+            // 
+            // txtEscalafon
+            // 
+            this.txtEscalafon.Location = new System.Drawing.Point(112, 46);
+            this.txtEscalafon.Name = "txtEscalafon";
+            this.txtEscalafon.Size = new System.Drawing.Size(100, 20);
+            this.txtEscalafon.TabIndex = 9;
+            // 
+            // txtRTN
+            // 
+            this.txtRTN.Location = new System.Drawing.Point(112, 18);
+            this.txtRTN.Name = "txtRTN";
+            this.txtRTN.Size = new System.Drawing.Size(100, 20);
+            this.txtRTN.TabIndex = 9;
             // 
             // label23
             // 
@@ -584,13 +554,65 @@ namespace SistemaGestorDeDocentes
             this.label23.Text = "Colegio:";
             this.label23.Click += new System.EventHandler(this.label9_Click);
             // 
-            // cmbColegio
+            // label24
             // 
-            this.cmbColegio.FormattingEnabled = true;
-            this.cmbColegio.Location = new System.Drawing.Point(111, 72);
-            this.cmbColegio.Name = "cmbColegio";
-            this.cmbColegio.Size = new System.Drawing.Size(100, 21);
-            this.cmbColegio.TabIndex = 12;
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(114, 269);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(98, 13);
+            this.label24.TabIndex = 11;
+            this.label24.Text = "Aqui va el nombre+";
+            this.label24.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(14, 269);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(92, 13);
+            this.label22.TabIndex = 11;
+            this.label22.Text = "Centro Educativo:";
+            this.label22.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(67, 240);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(38, 13);
+            this.label21.TabIndex = 11;
+            this.label21.Text = "Cargo:";
+            this.label21.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(32, 210);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(74, 13);
+            this.label20.TabIndex = 11;
+            this.label20.Text = "Tipo Acuerdo:";
+            this.label20.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(36, 184);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(70, 13);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "No. Acuerdo:";
+            this.label19.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(67, 156);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(38, 13);
+            this.label17.TabIndex = 11;
+            this.label17.Text = "Título:";
+            this.label17.Click += new System.EventHandler(this.label10_Click);
             // 
             // tabControl1
             // 
@@ -629,25 +651,6 @@ namespace SistemaGestorDeDocentes
             this.Lista.TabIndex = 1;
             this.Lista.Text = "Lista de Docentes";
             this.Lista.UseVisualStyleBackColor = true;
-            // 
-            // btnSeleccionarCE
-            // 
-            this.btnSeleccionarCE.Location = new System.Drawing.Point(111, 288);
-            this.btnSeleccionarCE.Name = "btnSeleccionarCE";
-            this.btnSeleccionarCE.Size = new System.Drawing.Size(99, 23);
-            this.btnSeleccionarCE.TabIndex = 7;
-            this.btnSeleccionarCE.Text = "Seleccionar";
-            this.btnSeleccionarCE.UseVisualStyleBackColor = true;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(114, 269);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(98, 13);
-            this.label24.TabIndex = 11;
-            this.label24.Text = "Aqui va el nombre+";
-            this.label24.Click += new System.EventHandler(this.label10_Click);
             // 
             // FrmDocentes
             // 
