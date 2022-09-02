@@ -41,3 +41,14 @@ C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeD
 C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.exe.config
 C:\Users\PC\Source\Repos\richarddj01\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.csproj.CopyComplete
+C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\MySql.Data.dll
+C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\ZstdNet.dll
+C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\System.Memory.dll
+C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\System.Buffers.dll
+C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.exe.config
+C:\Users\Yobany Abrego\OneDrive\Documentos\Sistema_Gestor_De_Docentes\Sistema-Gestor-de-Docentes\SistemaGestorDeDocentes\obj\Debug\SistemaGestorDeDocentes.csproj.CopyComplete
