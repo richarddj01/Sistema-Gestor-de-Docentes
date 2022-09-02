@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SistemaGestorDeDocentes"
+    "\\SistemaGestorDeDocentes",
+    "\\SistemaGestorDeDocentes\\Clases"
   ],
-  "SelectedNode": "\\SistemaGestorDeDocentes\\Form1.cs",
+  "SelectedNode": "\\SistemaGestorDeDocentes\\Clases\\conexion.cs",
   "PreviewInSolutionExplorer": false
 }
