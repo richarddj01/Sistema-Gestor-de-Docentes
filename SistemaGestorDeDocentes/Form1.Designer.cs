@@ -155,6 +155,7 @@
             // PanelVertical
             // 
             this.PanelVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(209)))), ((int)(((byte)(227)))));
+            this.PanelVertical.Controls.Add(this.Logo);
             this.PanelVertical.Controls.Add(this.BtnReportes);
             this.PanelVertical.Controls.Add(this.BtnDocentesEnCE);
             this.PanelVertical.Controls.Add(this.BtnCargo);
@@ -169,7 +170,6 @@
             this.PanelVertical.Controls.Add(this.panel3);
             this.PanelVertical.Controls.Add(this.panel5);
             this.PanelVertical.Controls.Add(this.panel2);
-            this.PanelVertical.Controls.Add(this.Logo);
             this.PanelVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelVertical.Location = new System.Drawing.Point(0, 0);
             this.PanelVertical.Name = "PanelVertical";
@@ -362,10 +362,10 @@
             // Logo
             // 
             this.Logo.BackColor = System.Drawing.SystemColors.Info;
-            this.Logo.Image = global::SistemaGestorDeDocentes.Properties.Resources.Logo;
-            this.Logo.Location = new System.Drawing.Point(12, 25);
+            this.Logo.Image = ((System.Drawing.Image)(resources.GetObject("Logo.Image")));
+            this.Logo.Location = new System.Drawing.Point(9, 10);
             this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(158, 56);
+            this.Logo.Size = new System.Drawing.Size(151, 102);
             this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Logo.TabIndex = 0;
             this.Logo.TabStop = false;
