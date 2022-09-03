@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\SistemaGestorDeDocentes",
     "\\SistemaGestorDeDocentes\\Formularios"
   ],
   "SelectedNode": "\\SistemaGestorDeDocentes\\Formularios\\Docentes.cs",
+=======
+    "\\SistemaGestorDeDocentes"
+  ],
+  "SelectedNode": "\\SistemaGestorDeDocentes\\Program.cs",
+>>>>>>> 22cc48536aed141e98b1f38dc46dc7db17b601c1
   "PreviewInSolutionExplorer": false
 }
