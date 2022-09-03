@@ -128,5 +128,10 @@ namespace SistemaGestorDeDocentes
             Clases.conexion cn = new Clases.conexion();
             cn.abrircn();
         }
+
+        private void PanelCentral_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -36,6 +36,7 @@
             this.Salir = new System.Windows.Forms.PictureBox();
             this.BtnSlide = new System.Windows.Forms.PictureBox();
             this.PanelVertical = new System.Windows.Forms.Panel();
+            this.Logo = new System.Windows.Forms.PictureBox();
             this.BtnReportes = new System.Windows.Forms.Button();
             this.BtnDocentesEnCE = new System.Windows.Forms.Button();
             this.BtnCargo = new System.Windows.Forms.Button();
@@ -50,7 +51,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.Logo = new System.Windows.Forms.PictureBox();
             this.PanelCentral = new System.Windows.Forms.Panel();
             this.Panel_Barra_Titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Restaurar)).BeginInit();
@@ -165,6 +165,18 @@
             this.PanelVertical.Size = new System.Drawing.Size(191, 532);
             this.PanelVertical.TabIndex = 0;
             this.PanelVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelVertical_Paint);
+            // 
+            // Logo
+            // 
+            this.Logo.BackColor = System.Drawing.SystemColors.Info;
+            this.Logo.Image = ((System.Drawing.Image)(resources.GetObject("Logo.Image")));
+            this.Logo.Location = new System.Drawing.Point(9, 10);
+            this.Logo.Name = "Logo";
+            this.Logo.Size = new System.Drawing.Size(151, 102);
+            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Logo.TabIndex = 0;
+            this.Logo.TabStop = false;
+            this.Logo.Click += new System.EventHandler(this.Logo_Click);
             // 
             // BtnReportes
             // 
@@ -348,18 +360,6 @@
             this.panel2.Size = new System.Drawing.Size(5, 33);
             this.panel2.TabIndex = 0;
             // 
-            // Logo
-            // 
-            this.Logo.BackColor = System.Drawing.SystemColors.Info;
-            this.Logo.Image = ((System.Drawing.Image)(resources.GetObject("Logo.Image")));
-            this.Logo.Location = new System.Drawing.Point(9, 10);
-            this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(151, 102);
-            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Logo.TabIndex = 0;
-            this.Logo.TabStop = false;
-            this.Logo.Click += new System.EventHandler(this.Logo_Click);
-            // 
             // PanelCentral
             // 
             this.PanelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(158)))), ((int)(((byte)(158)))));
@@ -369,6 +369,7 @@
             this.PanelCentral.Name = "PanelCentral";
             this.PanelCentral.Size = new System.Drawing.Size(694, 488);
             this.PanelCentral.TabIndex = 2;
+            this.PanelCentral.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelCentral_Paint);
             this.PanelCentral.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelCentral_MouseDown);
             // 
             // Inicio
