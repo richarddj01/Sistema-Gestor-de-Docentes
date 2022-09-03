@@ -80,12 +80,13 @@ namespace SistemaGestorDeDocentes
             {
                 Form FO = FormHijo as Form;
                 FO.TopLevel = false;
+                FO.FormBorderStyle = FormBorderStyle.None;
                 FO.Dock = DockStyle.Fill;
                 this.PanelCentral.Controls.Add(FO);
                 this.PanelCentral.Tag = FO;
                 FO.Show();
+                FO.BringToFront();
             }
-          
         }
 
         private void BtnDocentes_Click(object sender, EventArgs e)
