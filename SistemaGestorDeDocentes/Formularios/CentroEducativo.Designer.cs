@@ -38,10 +38,14 @@ namespace SistemaGestorDeDocentes
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.Aldea = new System.Windows.Forms.Label();
             this.GrpDireccion = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             this.GrpDireccion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -61,7 +65,7 @@ namespace SistemaGestorDeDocentes
             // 
             this.NombreCE.AutoSize = true;
             this.NombreCE.Font = new System.Drawing.Font("PlutoSansW04-Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NombreCE.Location = new System.Drawing.Point(113, 150);
+            this.NombreCE.Location = new System.Drawing.Point(52, 150);
             this.NombreCE.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NombreCE.Name = "NombreCE";
             this.NombreCE.Size = new System.Drawing.Size(175, 15);
@@ -72,7 +76,7 @@ namespace SistemaGestorDeDocentes
             // 
             this.CodCE.AutoSize = true;
             this.CodCE.Font = new System.Drawing.Font("PlutoSansW04-Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CodCE.Location = new System.Drawing.Point(117, 114);
+            this.CodCE.Location = new System.Drawing.Point(56, 114);
             this.CodCE.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CodCE.Name = "CodCE";
             this.CodCE.Size = new System.Drawing.Size(168, 15);
@@ -103,7 +107,7 @@ namespace SistemaGestorDeDocentes
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(297, 147);
+            this.textBox2.Location = new System.Drawing.Point(236, 147);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(132, 22);
@@ -111,7 +115,7 @@ namespace SistemaGestorDeDocentes
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(297, 114);
+            this.textBox3.Location = new System.Drawing.Point(236, 114);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(132, 22);
@@ -137,7 +141,7 @@ namespace SistemaGestorDeDocentes
             this.GrpDireccion.Controls.Add(this.Dpto);
             this.GrpDireccion.Controls.Add(this.Aldea);
             this.GrpDireccion.Font = new System.Drawing.Font("PlutoSansW04-Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GrpDireccion.Location = new System.Drawing.Point(113, 189);
+            this.GrpDireccion.Location = new System.Drawing.Point(52, 189);
             this.GrpDireccion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.GrpDireccion.Name = "GrpDireccion";
             this.GrpDireccion.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -145,33 +149,6 @@ namespace SistemaGestorDeDocentes
             this.GrpDireccion.TabIndex = 3;
             this.GrpDireccion.TabStop = false;
             this.GrpDireccion.Text = "Direccion";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(504, 105);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(320, 287);
-            this.dataGridView1.TabIndex = 4;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(146, 51);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(160, 23);
-            this.comboBox1.TabIndex = 2;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(146, 90);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(160, 23);
-            this.comboBox2.TabIndex = 2;
             // 
             // comboBox3
             // 
@@ -182,11 +159,78 @@ namespace SistemaGestorDeDocentes
             this.comboBox3.Size = new System.Drawing.Size(160, 23);
             this.comboBox3.TabIndex = 2;
             // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(146, 90);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(160, 23);
+            this.comboBox2.TabIndex = 2;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(146, 51);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(160, 23);
+            this.comboBox1.TabIndex = 2;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(567, 95);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(320, 287);
+            this.dataGridView1.TabIndex = 4;
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(442, 166);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.TabIndex = 20;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Location = new System.Drawing.Point(442, 243);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnActualizar.TabIndex = 19;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(442, 204);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 18;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(442, 281);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiar.TabIndex = 17;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            // 
             // FrmCentroEducativo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(934, 462);
+            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.btnActualizar);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.GrpDireccion);
             this.Controls.Add(this.textBox3);
@@ -222,5 +266,9 @@ namespace SistemaGestorDeDocentes
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
